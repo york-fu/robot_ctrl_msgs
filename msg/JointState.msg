@@ -1,8 +1,8 @@
 std_msgs/Header header
 
-uint32 nj
+uint32 num
 string[] name
-float32[] q
-float32[] v
-float32[] vd
-float32[] tau
+float32[] pos
+float32[] vel
+float32[] acc
+float32[] eff
